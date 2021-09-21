@@ -1,0 +1,2 @@
+# Multiparameter-painting-recognition-with-deep-neural-nets
+My MSc Thesis, in which I have implemented a multi-layered system for painting classification in 4 categories: style, genre, artist and a century of creation. I have used four convolutional neural networks (CNNs) to classify a painting between various classes within each of these categories, then gathered all of the predictions and used another layer of classifiers (with tried SVMs, RLs, RFs, MLPs and 1/2/3-layered neural nets) to make a 2nd level prediction based on CNNs predictions for every class.
